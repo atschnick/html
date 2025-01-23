@@ -6,7 +6,6 @@
 body{
         font-family:'Trebuchet MS', 'sans-serif';
         line-height:1.0;
-        background-color:green;
 }
 
 #showcase{
@@ -25,40 +24,33 @@ body{
 }
 
 #showcase .highlight{
-	background-color:green;
-	border-radius:10px;
-	color:yellow;
 	padding-left:5px;
 	padding-right:5px;
 }
 
 #showcase h1{
-	background-color:green;
-	border:1px yellow solid;
-	color:yellow;
+	width:50%;
 	font-size:3em;
-	border-radius:10px;
 	padding:10px;
 	margin-bottom:10px;
 }
 
 #showcase a{
-	background-color:green;
 	font-size:1.5em;
-	color:yellow;
 	text-decoration:none;
-	border:1px yellow solid;
-	border-radius:10px;
+	border:1px black solid;
 	padding:10px;
 	margin-top:10px;
 	margin-bottom:10px;
+	opacity: 75%;
 }
 
 #showcase a:visited{
-	color:yellow;
+	color:black;
 }
 
 #showcase a:hover{
-	background-color:yellow;
-	color:green;
+	background-color:black;
+	border:1px white solid;
+	color:white;
 }

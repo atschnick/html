@@ -6,48 +6,36 @@
 
 body{
 	font-family:'Trebuchet MS', 'sans-serif';
-	background-color:green;
-	color:yellow;
 }
 
 table
 {
 	width:90%;
-	background-color:green;
-	border:5px yellow solid;
-	border-radius:10px;
-	opacity:75%;
 	margin-top:10px;
-	margin-bottom:10px;
 }
 
-h1
+a.button:visited
 {
-	color:yellow;
-}
-
-p
-{
-	color:yellow;
+	color:black;
 }
 
 a.button
 {
-	background-color:green;
-	color:yellow;
-	border:1px yellow solid;
-	border-radius:10px;
+	border:1px black solid;
 	padding:10px;
-	font-size:1.5em;
+	font-size:2.5em;
+	margin-top:200px;
 	text-decoration:none;
 }
 
 a.button:hover
 {
-	background-color:yellow;
-	color:green;
+	background-color:black;
+	border:1px white solid;
+	color:white;
 }
 
 .parallax{
-	background:url("./../images/splash.jpg") fixed repeat 75%;
+	background:url("./../images/splash.jpg") fixed 75%;
+	background-size:cover;
 }

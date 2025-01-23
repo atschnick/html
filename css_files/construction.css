@@ -1,0 +1,53 @@
+*{
+	margin:0;
+	padding:0;
+	border:0;
+}
+
+body{
+	font-family:'Trebuchet MS', 'sans-serif';
+	background-color:green;
+	color:yellow;
+}
+
+table
+{
+	width:90%;
+	background-color:green;
+	border:5px yellow solid;
+	border-radius:10px;
+	opacity:75%;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+h1
+{
+	color:yellow;
+}
+
+p
+{
+	color:yellow;
+}
+
+a.button
+{
+	background-color:green;
+	color:yellow;
+	border:1px yellow solid;
+	border-radius:10px;
+	padding:10px;
+	font-size:1.5em;
+	text-decoration:none;
+}
+
+a.button:hover
+{
+	background-color:yellow;
+	color:green;
+}
+
+.parallax{
+	background:url("./../images/splash.jpg") fixed repeat 75%;
+}

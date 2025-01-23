@@ -1,10 +1,5 @@
 <!DOCTYPE html>
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link rel="stylesheet" href="css_files/construction.css">
-</head>
+<?php include 'head.php'; ?>
 <body class=parallax>
 <center><table>
 	<tr>

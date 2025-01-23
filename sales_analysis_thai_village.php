@@ -1,6 +1,6 @@
 <html>
-<link rel="stylesheet" href="css_files/construction.css">
-<body>
+<link rel="stylesheet" href="/css_files/construction.css">
+<body class=parallax>
 <?php
         require_once 'private/login_auth_thai_village.php';
 
@@ -10,12 +10,24 @@
         $totalsold2017 = 87;
         $totalsold2018 = 88;
 
+	if($dbserver)
+	{
+		echo "Connected to server.";
+	}
+
         //echo "Hello.  At least some of my code is working.";
+
+	//colmuns sold2017 and sold2018 don't exist in thaivillagecodes
 
         $query = "SELECT sku, sold2017, sold2018 FROM thaivillagecodes ORDER BY sku ASC";
 
-        $result = mysqli_query($dbserver, $query);
+        /*$result = mysqli_query($dbserver, $query);
         if(!$result) die ("Unable to Connect to Database: " . mysqli_error($dbserver));
+
+	if($result)
+	{
+		echo "Query was successful.";
+	}
 
         $rows = mysqli_num_rows($result);
 
@@ -136,7 +148,7 @@
                 echo "</tr>";
         }
 
-        echo "</table>";
+        echo "</table>";*/
 
         mysqli_close($dbserver);
 ?>

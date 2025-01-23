@@ -1,5 +1,10 @@
 <html>
-<link rel="stylesheet" href="css_files/construction.css">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="css_files/construction.css">
+</head>
 <body class=parallax>
 <br><br>
 <a href=item_search.php><-- Back to Item Search</a>

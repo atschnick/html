@@ -36,6 +36,6 @@ a.button:hover
 }
 
 .parallax{
-	background:url("./../images/splash.jpg") fixed 75%;
+	background:url("./../images/background.jpg") fixed 75%;
 	background-size:cover;
 }

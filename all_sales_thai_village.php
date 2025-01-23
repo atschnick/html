@@ -38,12 +38,42 @@
 
                 for($w = 0; $w < 11; ++$w)
                 {
-
-                        echo "<td>";
-
-                        echo $row[$w];
-
-                        echo "</td>";
+			switch($w)
+			{
+				case 0:
+					echo "<td>" . $row[$w] . "</td>";
+					break;
+				case 1:
+                                        echo "<td>" . $row[$w] . "</td>";
+                                        break;
+				case 2:
+                                        echo "<td>" . $row[$w] . "</td>";
+                                        break;
+				case 3:
+                                        echo "<td>" . $row[$w] . "</td>";
+                                        break;
+				case 4:
+                                        echo "<td>" . $row[$w] . "</td>";
+                                        break;
+				case 5:
+                                        echo "<td>" . $row[$w] . "</td>";
+                                        break;
+				case 6:
+                                        echo "<td>" . $row[$w] . "</td>";
+                                        break;
+				case 7:
+					echo "<td>$" . $row[$w] . "</td>";
+					break;
+				case 8:
+					echo "<td>$" . $row[$w] . "</td>";
+					break;
+				case 9:
+					echo "<td>$" . $row[$w] . "</td>";
+					break;
+				case 10:
+					echo "<td>" . $row[$w] . "</td>";
+					break;
+			}
                 }
 
                 echo "</tr>";

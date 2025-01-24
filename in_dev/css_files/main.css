@@ -1,0 +1,48 @@
+body{
+	font-family:'Trebuchet MS', 'sans-serif';
+	line-height:1.0;
+	background-color:blue;
+}
+
+/*p
+{
+	color:blue;
+}*/
+
+table
+{
+	color:blue;
+	background-color: white;
+	border-radius:10px;
+}
+
+h1{
+	background-color:white;
+	border:1px blue solid;
+	color:blue;
+	font-size:3em;
+	border-radius:10px;
+	padding:10px;
+	margin-bottom:10px;
+}
+
+a{
+	background-color:white;
+	font-size:1.5em;
+	color:blue;
+	text-decoration:none;
+	border:1px black solid;
+	border-radius:10px;
+	padding:10px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+a:visited{
+	color:blue;
+}
+
+a:hover{
+	background-color:blue;
+	color:white;
+}

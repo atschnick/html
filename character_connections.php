@@ -1,5 +1,5 @@
 <html>
-<link rel="stylesheet" href="css_files/construction.css" />
+<?php include "head.php"; ?>
 <body class=parallax>
 <form method=post action=>
 <center><table>

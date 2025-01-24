@@ -1,31 +1,19 @@
 <!DOCTYPE html>
 <?php include 'head.php'; ?>
 <body class=parallax>
-<?php
-        /*require_once 'private/login_auth_thai_village.php';
-
-        $dbserver = mysqli_connect($dbhostname, $dbusername, $dbpassword, $dbdatabase);
-        if(!$dbserver) die ("Unable to connect to MySQL: " . mysqli_connect_error());
-
-	mysqli_close($dbserver);*/
-?>
 <center>
+<div class=main-intro-table>
         <table>
                 <tr>
-                        <td><center><h1>Welcome to ANDy Schnick's Website</h1></center></td>
+                        <td><center><h1>Welcome<br>to<br>Andy Schnick's<br> Website</h1></center></td>
                 </tr>
                 <tr>
-                        <td><p></p></td>
-                </tr>
-                <tr>
-                        <td>
-                                <center>
-                                        <a class=button href=character_connections.php>Character Connections</a>
-                                        <a class=button href=all_sales_thai_village.php>Thai Village</a>
-                                </center>
-                        </td>
+                        <td><p>My name is Andy Schnick.  I am a web development hobbyist and an accounting student at <a href=https://www.madisoncollege.edu target=window>Madison College</a>.  I learned HTML on my own from a library book and PHP & MySQL from other library books with the help of Matt Zuhlke, the IT Coordinator at <a href=https://www.wlchapel.org target=window>Wisconsin Lutheran Chapel</a>.</p></td>
                 </tr>
         </table>
+	<a class=button href=character_connections.php>Character Connections</a>
+        <a class=button href=all_sales_thai_village.php>Thai Village</a>
+</div>
 </center>
 </body>
 </html>

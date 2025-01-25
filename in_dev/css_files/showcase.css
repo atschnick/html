@@ -36,6 +36,7 @@ body{
 }
 
 #showcase a{
+	color:black;
 	font-size:1.5em;
 	text-decoration:none;
 	border:1px black solid;

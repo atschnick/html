@@ -53,9 +53,9 @@ body{
 	animation: rotation 10s linear infinite;
 }
 
-.card::after{
-	filter: blur(3.5rem); /* To get a glow around the card. */
-}
+/*.card::after{
+	filter: blur(3.5rem);
+}*/
 
 .splashbutton{
 	text-decoration: none;

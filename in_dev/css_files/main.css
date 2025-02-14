@@ -15,6 +15,9 @@
 	--clr-3: #0e4b50;
 	--clr-4: #2d8f85;
 	--clr-5: #637c54;
+
+	--clr-6: #0ad122; /*Green Bay Green*/
+	--clr-7: #eeff00; /*Green Bay Gold*/
 }
 
 body{
@@ -31,7 +34,7 @@ body{
 	aspect-ratio: 1/ 1.5;
 	background: white;
 	border-radius: 0.5rem;
-
+	color: var(--clr-5);
 	position: relative;
 }
 
@@ -41,19 +44,13 @@ body{
 	position: absolute;
 	inset: -.5rem;
 	z-index: -1;
-	background: conic-gradient(
-		from var(--gradient-angle),
-		var(--clr-1),
-		var(--clr-2),
-		var(--clr-3),
-		var(--clr-4),
+	background: linear-gradient(
+		var(--gradient-angle),
 		var(--clr-5),
-		var(--clr-4),
-		var(--clr-3),
-		var(--clr-2),
-		var(--clr-1));
+		var(--clr-7),
+		var(--clr-5));
 	border-radius: inherit; /* To make sure this card has the same curves. */
-	animation: rotation 15s linear infinite;
+	animation: rotation 10s linear infinite;
 }
 
 .card::after{

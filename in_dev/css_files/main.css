@@ -9,6 +9,18 @@
 	100% { --gradient-angle: 360deg; }
 }
 
+@keyframes dropAndBounce {
+  0% {
+    transform: translateY(-100vh);
+  }
+  90% {
+    transform: translateY(10vh);
+  }
+  100% {
+    transform: translateY(0vh);
+  }
+}
+
 :root{
 	--clr-1: #052b2f;
 	--clr-2: #073438;
@@ -32,10 +44,12 @@ body{
 	padding-top: 20px;
 	height: 60vh;
 	aspect-ratio: 1/ 1.5;
-	background: white;
+	background-color: white;
 	border-radius: 0.5rem;
 	color: var(--clr-5);
 	position: relative;
+  /*transform: translateX(-50%);*/
+  animation: dropAndBounce 2s ease-in-out;
 }
 
 .card::before,
@@ -50,7 +64,7 @@ body{
 		var(--clr-7),
 		var(--clr-5));
 	border-radius: inherit; /* To make sure this card has the same curves. */
-	animation: rotation 10s linear infinite;
+	animation: rotation 2s linear infinite;
 }
 
 /*.card::after{
@@ -59,15 +73,15 @@ body{
 
 .splashbutton{
 	text-decoration: none;
-	border: 1px var(--clr-5) solid;
+	border: 1px var(--clr-7) solid;
 	border-radius: 10px;
-	color: var(--clr-5);
-	background-color: white;
+	color: var(--clr-7);
+	background-color: var(--clr-5);
 	padding: 10px;
 }
 
 .splashbutton:hover{
-	color: white;
-	background-color: var(--clr-5);
+	color: var(--clr-5);
+	background-color: var(--clr-7);
 }
 

@@ -40,6 +40,9 @@ body{
 	place-content: center;
 }
 
+.card_container{
+	animation: dropAndBounce 2s ease-in-out;
+}
 .card{
 	padding-top: 20px;
 	height: 60vh;
@@ -48,8 +51,6 @@ body{
 	border-radius: 0.5rem;
 	color: var(--clr-5);
 	position: relative;
-  /*transform: translateX(-50%);*/
-  animation: dropAndBounce 2s ease-in-out;
 }
 
 .card::before,

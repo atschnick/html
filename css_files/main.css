@@ -1,48 +1,63 @@
 body{
-	font-family:'Trebuchet MS', 'sans-serif';
-	line-height:1.0;
-	background-color:blue;
+	color: #637c54;
 }
 
-/*p
-{
-	color:blue;
-}*/
-
-table
-{
-	color:blue;
-	background-color: white;
-	border-radius:10px;
+.pageContent{
+	padding: 10px;
 }
 
-h1{
-	background-color:white;
-	border:1px blue solid;
-	color:blue;
-	font-size:3em;
-	border-radius:10px;
-	padding:10px;
-	margin-bottom:10px;
+.intro{
+	color: #637c54;
+	padding: 10px;
+	border: 1px #637c54 solid;
+    	margin: 20px;
+    	border-radius: 10px;
+    	display: flex;
+    	justify-content: center;
+    	flex-wrap: wrap;
+    	flex-direction: colmun;
+    	align-items: center;
+    	gap: 1rem;
 }
 
-a{
-	background-color:white;
-	font-size:1.5em;
-	color:blue;
-	text-decoration:none;
-	border:1px black solid;
-	border-radius:10px;
-	padding:10px;
-	margin-top:10px;
-	margin-bottom:10px;
+.intro_text{
+	width: 300px;
+	border: 1px #637c54 solid;
+	border-radius: 10px;
+	flex-shrink: 1;
+	padding: 10px;
 }
 
-a:visited{
-	color:blue;
+.intro_text h1{
+	text-wrap: wrap;
 }
 
-a:hover{
-	background-color:blue;
-	color:white;
+.projects{
+	padding: 10px;
+	margin-top: 20px;
+	display: flex;
+	gap: 1rem;
+	flex-wrap: wrap;
+}
+
+.projects a{
+	color: #637c54;
+	border: 1px #637c54 solid;
+	border-radius: 10px;
+	text-decoration: none;
+}
+
+.projects a:hover{
+        color: #eeff00;
+        background-color: #637c54;
+        border: 1px #eeff00 solid;
+}
+
+.projectsThumbnail {
+	height: 300px;
+	width: 450px;
+}
+
+.characterConnections, .allSales{
+	padding: 5px;
 }

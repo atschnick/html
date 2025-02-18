@@ -1,10 +1,12 @@
 <html>
 <?php include "head.php"; ?>
-<body class=parallax>
+<body>
+<?php include "navbar.php"; ?>
+<div class="pageContent">
 <form method=post action=>
 <center><table>
 	<tr>
-		<td colspan=5><center><h1>ANDy's Human Networking Example Project</h1></center></td>
+		<td colspan=5><center><h1>Andrew Schnick's Character Connections Human Networking Search Engine Example Project</h1></center></td>
 	</tr>
 	<tr>
 		<td colspan=5><p>Instead of putting a database table of actual people who may or may not get upset
@@ -109,5 +111,6 @@
 
         mysqli_close($dbserver);
 ?>
+</div>
 </body>
 </html>

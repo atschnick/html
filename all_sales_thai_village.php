@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <?php include 'head.php'; ?>
-<body class=parallax>
+<body>
+<?php include "navbar.php"; ?>
+<div class="pageContent">
 <center><table>
 	<tr>
 		<td colspan=11><h1>Thai Village Sales Record Project (All Sales)</h1></td>
@@ -83,5 +85,6 @@
 
         mysqli_close($dbserver);
 ?>
+</div>
 </body>
 </html>

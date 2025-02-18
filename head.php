@@ -5,6 +5,7 @@
         echo "<meta http-equiv='X-UA-Compatible' content='ie=edge'>";
         echo "<link rel=stylesheet href=./css_files/main.css />";
 	echo "<link rel=stylesheet href=./css_files/navbar.css />";
+	echo "<script src='onclickNav.js'></script>";
         echo "<title>ANDy Schnick's Website</title>";
 	echo "</head>";
 ?>

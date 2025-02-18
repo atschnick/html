@@ -10,17 +10,12 @@
 
 body{
 	min-height: 100vh;
-	/*background-image: url('splash.jpeg');
-	background-size: cover;
-	background-repeat: norepeat;
-	background-position: center;*/
 	font-family: Trebuchet MS, sans-serif;
 }
 
 nav{
 	background-color: white;
 	box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
-
 }
 nav ul{
 	width: 100%;

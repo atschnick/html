@@ -1,5 +1,6 @@
 body{
 	color: #637c54;
+    	font-size: 1.5em;
 }
 
 .pageContent{
@@ -9,21 +10,16 @@ body{
 .intro{
 	color: #637c54;
 	padding: 10px;
-	border: 1px #637c54 solid;
     	margin: 20px;
-    	border-radius: 10px;
     	display: flex;
     	justify-content: center;
     	flex-wrap: wrap;
-    	flex-direction: colmun;
     	align-items: center;
     	gap: 1rem;
 }
 
 .intro_text{
 	width: 300px;
-	border: 1px #637c54 solid;
-	border-radius: 10px;
 	flex-shrink: 1;
 	padding: 10px;
 }
@@ -60,4 +56,15 @@ body{
 
 .characterConnections, .allSales{
 	padding: 5px;
+}
+
+@media(max-width: 800px){
+    .projectsThumbnail{
+        height: 200px;
+        width: 350px;
+    }
+
+    body{
+        font-size: 1.15em;
+    }
 }

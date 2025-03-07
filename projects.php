@@ -3,6 +3,14 @@
 <body>
 <?php include 'navbar.php'; ?>
 <div class="projects">
+	<a href="present_value_form.php">
+                <div class="investmentPlanning">
+                        <center>
+                                <img src="images/investment_planning.jpg" class="projectsThumbnail">
+                                <h3>Investment Planning</h3>
+                        </center>
+                </div>
+        </a>
 	<a href="character_connections.php">
 		<div class="characterConnections">
 			<center>

@@ -2,6 +2,22 @@ body{
 	color: #637c54;
 }
 
+.decision a{
+	color: #637c54;
+	border: 1px #637c54 solid;
+	border-radius: 10px;
+	text-decoration: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.decision a:hover{
+	color: yellow;
+	background-color: #637c54;
+}
+
 .pageContent{
 	padding: 10px;
 }
